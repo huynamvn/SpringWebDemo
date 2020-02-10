@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Let1 go</title>
+    <title>Let122 go</title>
 </head>
 <body>
 <b>Image public</b> <br>
