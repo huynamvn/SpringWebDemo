@@ -6,7 +6,7 @@ pipeline:
     password: 123312##
     port: 22
     script:
-      - mkdir /root/workspace/SpringWebDemo/ 
+      - cd /root/workspace/SpringWebDemo/ 
       - git init
       - git remote add origin https://github.com/huynamvn/SpringWebDemo.git  
       - git pull origin master
