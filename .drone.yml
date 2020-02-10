@@ -1,12 +1,12 @@
 pipeline:
   ssh:
     image: appleboy/drone-ssh
-    host: 128.199.72.109
+    host: 103.143.206.48
     username: root
     password: 123312##
     port: 22
     script:
-      - mkdir /root/workspace/SpringWebDemo/
+      - mkdir /root/workspace/SpringWebDemo/  
       - git pull origin master
       - mvn install
       - rm -rf /opt/tomcat/webapps/springwebdemo*
